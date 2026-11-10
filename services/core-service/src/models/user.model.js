@@ -3,8 +3,8 @@ let nextId = 1;
 
 async function createUser(data) {
   const user = {
-    id: nextId++,
     ...data,
+    id: nextId++,
     role: 'client',
     createdAt: new Date(),
   };
