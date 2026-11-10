@@ -1,0 +1,15 @@
+# Ignore the Claude markdown file
+CLAUDE.md
+PROGRESS.md
+
+# Ignore the environment variables file
+.env
+
+# Ignore the node_modules folder
+node_modules/
+
+#Ignore the test script
+testrun.js
+
+# build output
+dist/
