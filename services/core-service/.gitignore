@@ -13,3 +13,6 @@ testrun.js
 
 # build output
 dist/
+
+#testing
+validation.test.js
