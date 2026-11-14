@@ -2,6 +2,7 @@ const AppError = require('../utils/AppError');
 const logger = require('../utils/logger');
 function errorHandler(err, req, res, next) {
   if (err instanceof AppError) {
+    logger.warn(`${err.statusCode} ${err.message}`);
     return res.status(err.statusCode).json({
       error: err.message,
     });
